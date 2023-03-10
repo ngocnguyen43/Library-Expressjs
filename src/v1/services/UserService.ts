@@ -29,7 +29,7 @@ class UserService {
     }
     const compare = await ComparePassword(data.email, user.password);
     if (!compare) {
-      throw new InvalidCredentialsException('Incorrect email or password');
+      throw new InvalidCredentialsException('Incorrect  password');
     }
     return { message: 'Successs', status: 200 };
   };

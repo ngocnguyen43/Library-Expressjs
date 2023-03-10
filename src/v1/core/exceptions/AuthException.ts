@@ -1,14 +1,12 @@
-import { ErrorStatusCodes } from '../../utils/enums';
+import { ErrorStatusCodes, ErrorCodes } from '../../utils/enums';
+import { BaseException } from './BaseException';
 
-class AuthException extends Error {
-  private status: number;
-  constructor(message: string, status: number) {
-    super(message);
-    this.status = status;
-  }
-}
-export class InvalidCredentialsException extends AuthException {
-  constructor(message: string, status: number = ErrorStatusCodes.CreateFailedException) {
-    super(message, status);
+export class InvalidCredentialsException extends BaseException {
+  constructor(
+    message: string,
+    statusCode: number = ErrorStatusCodes.InvalidCredentialsException,
+    errorCode: number = ErrorCodes.InvalidCredentialsException,
+  ) {
+    super(message, statusCode, errorCode);
   }
 }

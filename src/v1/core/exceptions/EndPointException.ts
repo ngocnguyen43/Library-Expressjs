@@ -1,8 +1,14 @@
-class EndpointException extends Error {
-  constructor(code, messgae: string, data, status) {
-    super(messgae);
+import { ErrorCodes, ErrorStatusCodes } from '../.././utils/enums';
+import { BaseException } from './BaseException';
+
+export class InternalServerException extends BaseException {}
+export class InvalidEndpointEcxeption extends BaseException {
+  constructor(
+    message = 'URL not found',
+    statuscode: number = ErrorStatusCodes.InvalidEndpointException,
+    errorCode: number = ErrorCodes.InvalidEndpointException,
+  ) {
+    super(message, statuscode, errorCode);
   }
 }
-export class InternalServerException extends EndpointException {}
-export class InvalidEndpointEcxeption extends EndpointException {}
-export class UnimplementedException extends EndpointException {}
+export class UnimplementedException extends BaseException {}

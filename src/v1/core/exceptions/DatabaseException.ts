@@ -1,20 +1,21 @@
-import { ErrorStatusCodes } from '../../utils/enums';
+import { ErrorCodes, ErrorStatusCodes } from '../../utils/enums';
+import { BaseException } from './BaseException';
 
-class DatabaseException extends Error {
-  private status: number;
-  private errorcode: number;
-  constructor(message: string, status: number) {
-    super(message);
-    this.status = status;
+export class NotFoundException extends BaseException {
+  constructor(
+    message: string,
+    statusCode: number = ErrorStatusCodes.NotFoundException,
+    errorCode: number = ErrorCodes.NotFoundException,
+  ) {
+    super(message, statusCode, errorCode);
   }
 }
-export class NotFoundException extends DatabaseException {
-  constructor(message: string, status: number = ErrorStatusCodes.NotFoundException) {
-    super(message, status);
-  }
-}
-export class DuplicateEntryException extends DatabaseException {
-  constructor(message: string, status: number = ErrorStatusCodes.DuplicateEntryException) {
-    super(message, status);
+export class DuplicateEntryException extends BaseException {
+  constructor(
+    message: string,
+    statusCode: number = ErrorStatusCodes.DuplicateEntryException,
+    errorCode: number = ErrorCodes.DuplicateEntryException,
+  ) {
+    super(message, statusCode, errorCode);
   }
 }
