@@ -20,7 +20,7 @@ const UserSchema = new Schema(
     status: {
       type: String,
       enum: ['active', 'inactive'],
-      default: 'inactive',
+      default: 'active',
     },
     roles: {
       type: Array,
@@ -32,11 +32,4 @@ const UserSchema = new Schema(
     timestamp: true,
   },
 );
-export interface User {
-  name: string;
-  email: string;
-  password: string;
-  status: string;
-  roles: string[];
-}
 export default model(DOCUMENT_NAME, UserSchema);
