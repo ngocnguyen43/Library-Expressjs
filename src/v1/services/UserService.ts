@@ -5,8 +5,9 @@ import { UserLoginDTO } from '../core/dtos/UserLoginDTO';
 import { ComparePassword } from '../utils/ComparePassword';
 import { DuplicateEntryException, NotFoundException } from '../core/exceptions/DatabaseException';
 import { InvalidCredentialsException } from '../core/exceptions/AuthException';
+import ResponseMessage from './../core/response/index';
 class UserService {
-  static SignUp = async (data: UserDTO): Promise<{ message: string; status: number }> => {
+  static SignUp = async (data: UserDTO): Promise<ResponseMessage> => {
     const email = data.email;
     const isExisted = await UserModel.findOne({ email }).lean();
     if (isExisted) {
@@ -22,16 +23,16 @@ class UserService {
     });
     return this.SignIn(data as UserLoginDTO);
   };
-  static SignIn = async (data: UserLoginDTO): Promise<{ message: string; status: number }> => {
+  static SignIn = async (data: UserLoginDTO): Promise<ResponseMessage> => {
     const user = await UserModel.findOne({ email: data.email }).lean();
     if (!user) {
       throw new NotFoundException('User Not Found');
     }
-    const compare = await ComparePassword(data.email, user.password);
+    const compare = await ComparePassword(data.password, user.password);
     if (!compare) {
       throw new InvalidCredentialsException('Incorrect  password');
     }
-    return { message: 'Successs', status: 200 };
+    return new ResponseMessage('Login Success');
   };
 }
 export default UserService;
