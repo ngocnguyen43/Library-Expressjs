@@ -17,6 +17,9 @@ class MiddlewareLoader {
         errorCode: error.errorCode,
       });
     });
+    app.use((req, res) => {
+      logEvents(`SUCCESSS------${createId()}-------${req.url}-------${req.method}`);
+    });
     return app;
   };
 }

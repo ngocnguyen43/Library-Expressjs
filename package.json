@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "dev": "cls &&  ts-node-dev --respawn --transpile-only src/server.ts",
+    "dev": "cls &&  nodemon -T src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

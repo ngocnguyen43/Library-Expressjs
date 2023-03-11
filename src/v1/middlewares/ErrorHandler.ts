@@ -6,7 +6,6 @@ type middleware = (req: Request, res: Response, next?: NextFunction) => Promise<
 
 export const ErrorHandler = (fn: middleware): any => {
   return async (req: Request, res: Response, next: NextFunction) => {
-    await logEvents(`SUCCESSS------${createId()}-------${req.url}-------${req.method}`);
     await fn(req, res, next).catch(next);
   };
 };
