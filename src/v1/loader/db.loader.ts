@@ -17,6 +17,7 @@ class Database {
     if (true) {
       mongoose.set('debug', true);
       mongoose.set('debug', { color: true });
+      mongoose.set('strictQuery', true);
     }
     mongoose
       .connect(connection)

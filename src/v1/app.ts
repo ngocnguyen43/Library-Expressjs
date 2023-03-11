@@ -1,3 +1,4 @@
+'use strict';
 import { checkOverLoad } from './helpers/checkConnections';
 import Database from './loader/db.loader';
 import RouterLoader from './loader/routes.loader';
