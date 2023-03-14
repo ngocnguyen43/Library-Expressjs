@@ -1,6 +1,6 @@
-"use strict";
-import mongoose from "mongoose";
-import os from "os";
+'use strict';
+import mongoose from 'mongoose';
+import os from 'os';
 const __SECOND__ = 1000;
 export const countConnections = () => {
   const connections = mongoose.connections.length;
@@ -13,7 +13,11 @@ export const checkOverLoad = () => {
     const memoryUsage = process.memoryUsage().rss;
     const maxConnections = cores * 5;
     if (connections > maxConnections) {
-      console.log("Server overload");
+      console.log('Server overload');
+    }
+    if (memoryUsage / 1024 / 1024 > 200) {
+      console.log('Server overload  :::: ', memoryUsage / 1024 / 1024);
+      process.exit();
     }
     console.log(`Active connections :::: ${connections}`);
     console.log(`Memory Usage       :::: ${memoryUsage / 1024 / 1024} MB`);
