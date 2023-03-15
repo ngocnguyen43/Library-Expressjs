@@ -1,4 +1,4 @@
-import UserModel from '../core/models/user.model';
+import UserModel from '../core/models/users.model';
 import { UserDTO } from './../core/dtos/UserDto';
 import { Message, OK } from './../core/response/index';
 import { HashPassword } from './../utils/HashPassword';
