@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
-import UserModel from './../core/models/user.model';
+import UserModel from '../core/models/users.model';
 
 import { Message, OK } from './../core/response/index';
 import { NotFoundException } from './../core/exceptions/DatabaseException';
