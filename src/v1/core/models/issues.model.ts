@@ -1,5 +1,4 @@
 import { Schema, model, Types } from 'mongoose';
-
 const DOCUMENT_NAME = 'Issues';
 const COLLECTION_NAME = 'Issues';
 const IssueSchema = new Schema(
