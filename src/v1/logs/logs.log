@@ -127,3 +127,4 @@ User Not FoundURL not found11-03-2023	 09:46:16 ------URL not found
 18-03-2023	 23:41:48 ------ERROR---------hqkmtxjzcsmm09bctvfzb7su-------/api/v1/shop/books-------GET------URL not found
 18-03-2023	 23:42:00 ------ERROR---------mw4xqembt3lab50felxnwwhk-------/api/v1/books-------GET------URL not found
 19-03-2023	 00:19:38 ------ERROR---------cflcvum5c5o1xp3zjs7l2v0a-------/api/v1/books?category=Biologye-------GET------No Books Found
+19-03-2023	 00:43:52 ------ERROR---------f5ah9tqm53l8pjkpr76vuz7f-------/api/v1/books?title=ABC-------POST------URL not found

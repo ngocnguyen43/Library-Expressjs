@@ -19,3 +19,12 @@ export class DuplicateEntryException extends BaseException {
     super(message, statusCode, errorCode);
   }
 }
+export class CreateFailedException extends BaseException {
+  constructor(
+    message: string,
+    statuscode: number = ErrorStatusCodes.CreateFailedException,
+    errorCode: number = ErrorCodes.CreateFailedException,
+  ) {
+    super(message, statuscode, errorCode);
+  }
+}
