@@ -123,3 +123,7 @@ User Not FoundURL not found11-03-2023	 09:46:16 ------URL not found
 11-03-2023	 23:50:18 ------ERROR---------aaitcrlkl3ybn13gffx22mql-------/api/v1/users/640b03f495dd2a515857d7d9-------GET------User Not Found
 11-03-2023	 23:50:18 ------ERROR---------yfcq7dqr8upr4jxt858p391o-------/api/v1/users/640b03f495dd2a515857d7d9-------GET------User Not Found
 11-03-2023	 23:50:18 ------ERROR---------fqmm6t6qy83usysnuj4ed8n4-------/api/v1/users/640b03f495dd2a515857d7d9-------GET------User Not Found
+18-03-2023	 23:41:24 ------ERROR---------ggk6qk28q681zrnto4d51buq-------/api/v1/shop/signup-------GET------URL not found
+18-03-2023	 23:41:48 ------ERROR---------hqkmtxjzcsmm09bctvfzb7su-------/api/v1/shop/books-------GET------URL not found
+18-03-2023	 23:42:00 ------ERROR---------mw4xqembt3lab50felxnwwhk-------/api/v1/books-------GET------URL not found
+19-03-2023	 00:19:38 ------ERROR---------cflcvum5c5o1xp3zjs7l2v0a-------/api/v1/books?category=Biologye-------GET------No Books Found
