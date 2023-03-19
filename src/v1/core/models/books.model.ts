@@ -2,6 +2,14 @@ import { Schema, model } from 'mongoose';
 
 const DOCUMENT_NAME = 'Books';
 const COLLECTION_NAME = 'Books';
+export interface IBook {
+  title: string;
+  ISBN: string;
+  author: string;
+  description: string;
+  category: string;
+  stock: number;
+}
 // const category = [
 //   'Science',
 //   'Biology',
@@ -15,7 +23,7 @@ const COLLECTION_NAME = 'Books';
 //   'Ethics',
 //   'Technology',
 // ];
-const BookSchema = new Schema(
+const BookSchema = new Schema<IBook>(
   {
     title: {
       type: String,
@@ -38,7 +46,7 @@ const BookSchema = new Schema(
   },
   {
     timestamps: true,
-    colletion: COLLECTION_NAME,
+    collection: COLLECTION_NAME,
   },
 );
 export default model(DOCUMENT_NAME, BookSchema);

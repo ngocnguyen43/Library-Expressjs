@@ -1,4 +1,4 @@
-import { ErrorCodes, ErrorStatusCodes } from '../.././utils/enums';
+import { ErrorCodes, ErrorStatusCodes } from '../../utils/Constant';
 import { BaseException } from './BaseException';
 
 export class InternalServerException extends BaseException {}

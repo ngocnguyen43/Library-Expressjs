@@ -1,4 +1,4 @@
-import { ErrorStatusCodes, ErrorCodes } from '../../utils/enums';
+import { ErrorStatusCodes, ErrorCodes } from '../../utils/Constant';
 import { BaseException } from './BaseException';
 
 export class InvalidCredentialsException extends BaseException {

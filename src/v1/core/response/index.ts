@@ -1,8 +1,8 @@
 export interface Message {
   message: string;
-  statuscode: number;
-  data?: object;
+  statusCode: number;
   pagination?: any;
+  data?: object;
 }
 class ResponseMessage implements Message {
   // private message: string;
@@ -10,19 +10,19 @@ class ResponseMessage implements Message {
   // private data?: object;
   // private pagination?: any;
   message: string;
-  statuscode: number;
-  data?: object;
+  statusCode: number;
   pagination?: any;
+  data?: object;
   constructor(message: string, statuscode: number, data?: object, pagination?: object) {
     this.message = message;
-    this.statuscode = statuscode;
+    this.statusCode = statuscode;
     data ? (this.data = data) : null;
     pagination ? (this.pagination = pagination) : null;
   }
 }
 export class OK extends ResponseMessage {
-  constructor(message: string, statuscode = 200, data?: object) {
-    super(message, statuscode, data);
+  constructor(message: string, statuscode = 200, data?: object, pagination?: object) {
+    super(message, statuscode, data, pagination);
   }
 }
 

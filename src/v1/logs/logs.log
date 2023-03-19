@@ -123,3 +123,21 @@ User Not FoundURL not found11-03-2023	 09:46:16 ------URL not found
 11-03-2023	 23:50:18 ------ERROR---------aaitcrlkl3ybn13gffx22mql-------/api/v1/users/640b03f495dd2a515857d7d9-------GET------User Not Found
 11-03-2023	 23:50:18 ------ERROR---------yfcq7dqr8upr4jxt858p391o-------/api/v1/users/640b03f495dd2a515857d7d9-------GET------User Not Found
 11-03-2023	 23:50:18 ------ERROR---------fqmm6t6qy83usysnuj4ed8n4-------/api/v1/users/640b03f495dd2a515857d7d9-------GET------User Not Found
+18-03-2023	 23:41:24 ------ERROR---------ggk6qk28q681zrnto4d51buq-------/api/v1/shop/signup-------GET------URL not found
+18-03-2023	 23:41:48 ------ERROR---------hqkmtxjzcsmm09bctvfzb7su-------/api/v1/shop/books-------GET------URL not found
+18-03-2023	 23:42:00 ------ERROR---------mw4xqembt3lab50felxnwwhk-------/api/v1/books-------GET------URL not found
+19-03-2023	 00:19:38 ------ERROR---------cflcvum5c5o1xp3zjs7l2v0a-------/api/v1/books?category=Biologye-------GET------No Books Found
+19-03-2023	 00:43:52 ------ERROR---------f5ah9tqm53l8pjkpr76vuz7f-------/api/v1/books?title=ABC-------POST------URL not found
+19-03-2023	 07:18:37 ------ERROR---------n8y442sey7dijhsjw5cznnoz-------/api/v1/books?page=126-------GET------No Books Found
+19-03-2023	 07:19:27 ------ERROR---------nimx1baec4cle2dgp3w8cc2c-------/api/v1/books?page=126-------GET------No Books Found
+19-03-2023	 07:20:04 ------ERROR---------urfw908i1x4dyefpw09msvvm-------/api/v1/books?title=ABC-------GET------Cannot read properties of undefined (reading 'toString')
+19-03-2023	 07:20:54 ------ERROR---------heahzq5zf0sfejmdge4bi4xf-------/api/v1/books?title=ABC-------GET------Cannot read properties of undefined (reading 'toString')
+19-03-2023	 07:22:39 ------ERROR---------x5otus1x0w42efpsaud4ngxa-------/api/v1/books-------GET------Cannot read properties of undefined (reading 'toString')
+19-03-2023	 07:24:43 ------ERROR---------pc75lslohsbpw4na1wb1qfff-------/api/v1/books-------GET------Cannot read properties of undefined (reading 'toString')
+19-03-2023	 07:46:57 ------ERROR---------dknn6mdanljw6ma1c6xht8oa-------/api/v1/books?title=ABC-------GET------No Books Found
+19-03-2023	 08:01:02 ------ERROR---------qe5udchun7rioqucrnmaokdd-------/api/v1/book?-------GET------URL not found
+19-03-2023	 08:01:20 ------ERROR---------hpw5x7e8irca6r87ipusrnz7-------/api/v1/books?page=126-------GET------No Books Found
+19-03-2023	 08:02:14 ------ERROR---------q85fusyhqofg1uvmfj7jpaw2-------/api/v1/books?page=126-------GET------No Books Found
+19-03-2023	 08:07:39 ------ERROR---------g4j3kcq7kd34ukvym65azoau-------/api/v1/books?page=126-------GET------No Books Found
+19-03-2023	 08:44:23 ------ERROR---------gyz0dk4psfjlcu5vpp30lw2q-------/api/v1/books?page=126-------GET------No Books Found
+19-03-2023	 08:46:05 ------ERROR---------l1nwqg5xpdeuq0kuecrx7dxz-------/api/v1/books-------DELETE------URL not found
