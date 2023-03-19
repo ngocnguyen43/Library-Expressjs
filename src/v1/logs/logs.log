@@ -141,3 +141,18 @@ User Not FoundURL not found11-03-2023	 09:46:16 ------URL not found
 19-03-2023	 08:07:39 ------ERROR---------g4j3kcq7kd34ukvym65azoau-------/api/v1/books?page=126-------GET------No Books Found
 19-03-2023	 08:44:23 ------ERROR---------gyz0dk4psfjlcu5vpp30lw2q-------/api/v1/books?page=126-------GET------No Books Found
 19-03-2023	 08:46:05 ------ERROR---------l1nwqg5xpdeuq0kuecrx7dxz-------/api/v1/books-------DELETE------URL not found
+19-03-2023	 09:38:53 ------ERROR---------oawq5v0rl0evcl3nsqxskq58-------/api/v1/issue-------GET------Cast to ObjectId failed for value "6415efc74e22d9f3f9590c398" (type string) at path "_id" for model "Books"
+19-03-2023	 09:39:51 ------ERROR---------gr9v8epiqctk7h4xn3bx6n13-------/api/v1/issue-------GET------Cast to ObjectId failed for value "6415efc74e22d9f3f9590c398" (type string) at path "_id" for model "Books"
+19-03-2023	 09:43:14 ------ERROR---------ialwl9k23jtkcwnidonq5jq9-------/api/v1/issue-------GET------Cast to ObjectId failed for value "6415efc74e22d9f3f9590c398" (type string) at path "_id" for model "Books"
+19-03-2023	 09:43:36 ------ERROR---------zsub3te7yx1irkk9eddg14qm-------/api/v1/issue-------GET------Error Issue
+19-03-2023	 09:59:36 ------ERROR---------ebmjc6juzi7tk5cndgjbl74z-------/api/v1/issue-------GET------Error Issue
+19-03-2023	 15:36:19 ------ERROR---------ytndgkt72kr8f38i61i6c3v5-------/api/v1/issue-------GET------Create Issue Failed
+19-03-2023	 16:30:41 ------ERROR---------jizfyb7hpsvef4xhcyxn5ia9-------/api/v1/issue-------GET------Create Issue Failed
+19-03-2023	 16:32:29 ------ERROR---------t3lsm2v2gcq8jcgxxuy23gij-------/api/v1/issue-------GET------Create Issue Failed
+19-03-2023	 16:32:32 ------ERROR---------e0cxlgw206ekhsvnxl4dkmzf-------/api/v1/issue-------GET------Create Issue Failed
+19-03-2023	 16:38:13 ------ERROR---------dhutwvnqwo4z320nejkxvmy7-------/api/v1/issue-------GET------URL not found
+19-03-2023	 16:38:24 ------ERROR---------n8qurxucsahbzz2ic3xyxa2l-------/api/v1/issue-------POST------Create Issue Failed
+19-03-2023	 16:56:02 ------ERROR---------owxjkrasg0nuiwfhn2ug4uy8-------/api/v1/issue-------POST------Not Found 
+19-03-2023	 17:11:08 ------ERROR---------rypgy8i7p4mzpqqnzjgcqk8i-------/api/v1/issue-------PATCH------Not Found User or Issue
+19-03-2023	 17:13:02 ------ERROR---------tl94bq9t294ani0xlzcuey10-------/api/v1/issue-------PATCH------Not Found User or Issue
+19-03-2023	 17:13:27 ------ERROR---------yjtmavzz29mqxufr5twtdbld-------/api/v1/issue-------PATCH------Not Found User or Issue
