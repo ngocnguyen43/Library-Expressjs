@@ -1,4 +1,4 @@
-/* eslint-disable no-useless-catch */
+import { id } from 'date-fns/locale';
 import BooksModel from '../core/models/books.model';
 import IssuesModel from '../core/models/issues.model';
 import UsersModel from '../core/models/users.model';
@@ -69,5 +69,15 @@ export class IssueService {
       else throw new UpdateFailedException('Update Issue Failed');
     }
   };
-  static returnBook = async () => {};
+  static returnBook = async (userId: string, issueId: string) => {
+    try {
+      const __issueId = new Types.ObjectId(issueId);
+      const issue = await IssuesModel.findOneAndDelete({ _id: __issueId });
+      const bookId = issue.book_info.id;
+      await BooksModel.findByIdAndUpdate(bookId, { $inc: { stock: 1 } });
+      return new OK('Return Successfully');
+    } catch (error) {
+      throw new UpdateFailedException('Return Book Failed');
+    }
+  };
 }
