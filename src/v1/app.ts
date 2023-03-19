@@ -12,5 +12,5 @@ const app = ServerLoader.init();
 Database.getInstance();
 RouterLoader.init(app, version);
 MiddlewareLoader.init(app);
-checkOverLoad();
+// checkOverLoad();
 export default app;

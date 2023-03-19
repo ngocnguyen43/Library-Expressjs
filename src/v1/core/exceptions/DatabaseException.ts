@@ -28,3 +28,12 @@ export class CreateFailedException extends BaseException {
     super(message, statuscode, errorCode);
   }
 }
+export class UpdateFailedException extends BaseException {
+  constructor(
+    message: string,
+    statusCode = ErrorStatusCodes.UpdateFailedException,
+    errorCode = ErrorCodes.UpdateFailedException,
+  ) {
+    super(message, statusCode, errorCode);
+  }
+}

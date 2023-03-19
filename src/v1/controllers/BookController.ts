@@ -10,7 +10,7 @@ export type bookFilter = {
 };
 export class BookController {
   static getBooks = async (req: Request, res: Response, next: NextFunction) => {
-    const page = parseInt(req.params.page) | 1;
+    const page = parseInt(req.query.page?.toString()) | 1;
     const category = req.query.category?.toString();
     const title = req.query.title?.toString();
     const filter: bookFilter = {};
@@ -25,5 +25,11 @@ export class BookController {
   };
   static createBook = async (req: Request, res: Response, next: NextFunction) => {
     return res.status(200).json(await BookService.createBook(req.body as BookDto));
+  };
+  static updateBook = async (req: Request, res: Response, next: NextFunction) => {
+    return res.status(200).json(await BookService.updateBook(req.body as BookDto));
+  };
+  static deleteBook = async (req: Request, res: Response, next: NextFunction) => {
+    return res.status(200).json(await BookService.deleteBook(req.body.id as string));
   };
 }
