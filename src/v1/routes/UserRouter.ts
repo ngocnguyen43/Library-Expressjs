@@ -6,3 +6,4 @@ export const router = Router();
 router.get('/users', ErrorHandler(UserController.getAllUser));
 router.get('/users/:id', ErrorHandler(UserController.getUserById));
 router.get('/user/issues', ErrorHandler(UserController.findAllIssues));
+router.patch('/user/issue', ErrorHandler(UserController.returnIssue));

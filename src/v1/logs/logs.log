@@ -169,3 +169,6 @@ User Not FoundURL not found11-03-2023	 09:46:16 ------URL not found
 21-03-2023	 20:34:30 ------ERROR---------pgc2ynckysivdnb3sq54q7g7-------/api/v1/issue-------POST------Create Issue Failed
 21-03-2023	 21:51:54 ------ERROR---------xtjnkmucho1j0anz0almhqvn-------/api/v1/user/issues-------GET------User not found
 21-03-2023	 21:53:24 ------ERROR---------do16ii1jw60cvqsy2yberu9j-------/api/v1/user/issues-------GET------User not found
+21-03-2023	 22:07:23 ------ERROR---------xjv94tdeh56zu1xs5ag705qx-------/api/v1/user/issue-------PATCH------Issue not found
+21-03-2023	 22:07:41 ------ERROR---------aqqpydngec1d34btd7us8cu2-------/api/v1/user/issue?id=6419b4d268df85d524e03b62-------PATCH------Issue not found
+21-03-2023	 22:18:13 ------ERROR---------ekykvv86dvrkeagr0rkkz6ks-------/api/v1/user/issue-------PATCH------Issue not found
