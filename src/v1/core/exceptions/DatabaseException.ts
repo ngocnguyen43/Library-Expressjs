@@ -37,3 +37,12 @@ export class UpdateFailedException extends BaseException {
     super(message, statusCode, errorCode);
   }
 }
+export class UnexpectedException extends BaseException {
+  constructor(
+    message: string,
+    statuscode: number = ErrorStatusCodes.UnexpectedException,
+    errorcode = ErrorCodes.UnauthorizedException,
+  ) {
+    super(message, statuscode, errorcode);
+  }
+}

@@ -15,6 +15,10 @@ const IssueSchema = new Schema(
       stock: Number,
       issueDate: { type: Date, default: Date.now() },
       returnDate: { type: Date, default: Date.now() + 7 * 24 * 60 * 60 * 1000 },
+      renewDate: {
+        type: Array,
+        default: [],
+      },
       isRenewed: { type: Boolean, default: false },
     },
 
@@ -23,8 +27,6 @@ const IssueSchema = new Schema(
         type: Types.ObjectId,
         ref: 'Users',
       },
-
-      username: String,
     },
   },
   {

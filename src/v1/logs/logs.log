@@ -141,3 +141,34 @@ User Not FoundURL not found11-03-2023	 09:46:16 ------URL not found
 19-03-2023	 08:07:39 ------ERROR---------g4j3kcq7kd34ukvym65azoau-------/api/v1/books?page=126-------GET------No Books Found
 19-03-2023	 08:44:23 ------ERROR---------gyz0dk4psfjlcu5vpp30lw2q-------/api/v1/books?page=126-------GET------No Books Found
 19-03-2023	 08:46:05 ------ERROR---------l1nwqg5xpdeuq0kuecrx7dxz-------/api/v1/books-------DELETE------URL not found
+19-03-2023	 09:38:53 ------ERROR---------oawq5v0rl0evcl3nsqxskq58-------/api/v1/issue-------GET------Cast to ObjectId failed for value "6415efc74e22d9f3f9590c398" (type string) at path "_id" for model "Books"
+19-03-2023	 09:39:51 ------ERROR---------gr9v8epiqctk7h4xn3bx6n13-------/api/v1/issue-------GET------Cast to ObjectId failed for value "6415efc74e22d9f3f9590c398" (type string) at path "_id" for model "Books"
+19-03-2023	 09:43:14 ------ERROR---------ialwl9k23jtkcwnidonq5jq9-------/api/v1/issue-------GET------Cast to ObjectId failed for value "6415efc74e22d9f3f9590c398" (type string) at path "_id" for model "Books"
+19-03-2023	 09:43:36 ------ERROR---------zsub3te7yx1irkk9eddg14qm-------/api/v1/issue-------GET------Error Issue
+19-03-2023	 09:59:36 ------ERROR---------ebmjc6juzi7tk5cndgjbl74z-------/api/v1/issue-------GET------Error Issue
+19-03-2023	 15:36:19 ------ERROR---------ytndgkt72kr8f38i61i6c3v5-------/api/v1/issue-------GET------Create Issue Failed
+19-03-2023	 16:30:41 ------ERROR---------jizfyb7hpsvef4xhcyxn5ia9-------/api/v1/issue-------GET------Create Issue Failed
+19-03-2023	 16:32:29 ------ERROR---------t3lsm2v2gcq8jcgxxuy23gij-------/api/v1/issue-------GET------Create Issue Failed
+19-03-2023	 16:32:32 ------ERROR---------e0cxlgw206ekhsvnxl4dkmzf-------/api/v1/issue-------GET------Create Issue Failed
+19-03-2023	 16:38:13 ------ERROR---------dhutwvnqwo4z320nejkxvmy7-------/api/v1/issue-------GET------URL not found
+19-03-2023	 16:38:24 ------ERROR---------n8qurxucsahbzz2ic3xyxa2l-------/api/v1/issue-------POST------Create Issue Failed
+19-03-2023	 16:56:02 ------ERROR---------owxjkrasg0nuiwfhn2ug4uy8-------/api/v1/issue-------POST------Not Found 
+19-03-2023	 17:11:08 ------ERROR---------rypgy8i7p4mzpqqnzjgcqk8i-------/api/v1/issue-------PATCH------Not Found User or Issue
+19-03-2023	 17:13:02 ------ERROR---------tl94bq9t294ani0xlzcuey10-------/api/v1/issue-------PATCH------Not Found User or Issue
+19-03-2023	 17:13:27 ------ERROR---------yjtmavzz29mqxufr5twtdbld-------/api/v1/issue-------PATCH------Not Found User or Issue
+21-03-2023	 20:21:41 ------ERROR---------z56xojupjqr2gfpmykuokmsj-------/api/v1/issue-------POST------Create Issue Failed
+21-03-2023	 20:22:42 ------ERROR---------i0viagd4qglowuo1jsutnasp-------/api/v1/issue-------POST------Create Issue Failed
+21-03-2023	 20:23:29 ------ERROR---------uc21ca9f5lt1sh3vksz2xzw4-------/api/v1/issue-------POST------Create Issue Failed
+21-03-2023	 20:25:48 ------ERROR---------mdbitom3l4u7fbrj27c3m15e-------/api/v1/issue-------POST------Create Issue Failed
+21-03-2023	 20:26:23 ------ERROR---------qc485sq1g80nxy6e6y30qfqw-------/api/v1/issue-------POST------Create Issue Failed
+21-03-2023	 20:27:59 ------ERROR---------chj0ii114n358k13cs8xmx21-------/api/v1/issue-------POST------Create Issue Failed
+21-03-2023	 20:28:38 ------ERROR---------gli8cw00mbmwqxv5hhvn75jr-------/api/v1/issue-------POST------Create Issue Failed
+21-03-2023	 20:28:52 ------ERROR---------rouhn8uaokk9uopu1ln6kqjq-------/api/v1/issue-------POST------Create Issue Failed
+21-03-2023	 20:29:55 ------ERROR---------f3z5mq8syvf7kfy0oj1enfwh-------/api/v1/issue-------POST------Create Issue Failed
+21-03-2023	 20:34:11 ------ERROR---------ow1df1e0nsbj4filmwncdc2k-------/api/v1/issue-------POST------Create Issue Failed
+21-03-2023	 20:34:30 ------ERROR---------pgc2ynckysivdnb3sq54q7g7-------/api/v1/issue-------POST------Create Issue Failed
+21-03-2023	 21:51:54 ------ERROR---------xtjnkmucho1j0anz0almhqvn-------/api/v1/user/issues-------GET------User not found
+21-03-2023	 21:53:24 ------ERROR---------do16ii1jw60cvqsy2yberu9j-------/api/v1/user/issues-------GET------User not found
+21-03-2023	 22:07:23 ------ERROR---------xjv94tdeh56zu1xs5ag705qx-------/api/v1/user/issue-------PATCH------Issue not found
+21-03-2023	 22:07:41 ------ERROR---------aqqpydngec1d34btd7us8cu2-------/api/v1/user/issue?id=6419b4d268df85d524e03b62-------PATCH------Issue not found
+21-03-2023	 22:18:13 ------ERROR---------ekykvv86dvrkeagr0rkkz6ks-------/api/v1/user/issue-------PATCH------Issue not found
