@@ -5,3 +5,4 @@ import { ErrorHandler } from './../middlewares/ErrorHandler';
 export const router = Router();
 router.get('/users', ErrorHandler(UserController.getAllUser));
 router.get('/users/:id', ErrorHandler(UserController.getUserById));
+router.get('/user/issues', ErrorHandler(UserController.findAllIssues));

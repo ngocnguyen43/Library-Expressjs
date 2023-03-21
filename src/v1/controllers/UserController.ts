@@ -7,4 +7,7 @@ export class UserController {
   static getUserById = async (req: Request, res: Response, next: NextFunction) => {
     return res.status(200).json(await UserService.findById(req.params.id));
   };
+  static findAllIssues = async (req: Request, res: Response, next: NextFunction) => {
+    return res.status(200).json(await UserService.findAllIssues(req.body.id as string));
+  };
 }

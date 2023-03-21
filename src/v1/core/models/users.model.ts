@@ -33,7 +33,7 @@ const UserSchema = new Schema(
       type: Array,
       default: [],
     },
-    bookIssues: { type: [Types.ObjectId], ref: 'Issues' },
+    bookIssues: [{ type: Types.ObjectId, ref: 'Issues' }],
   },
   {
     timestamps: true,

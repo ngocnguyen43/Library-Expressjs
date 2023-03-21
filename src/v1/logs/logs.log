@@ -156,3 +156,16 @@ User Not FoundURL not found11-03-2023	 09:46:16 ------URL not found
 19-03-2023	 17:11:08 ------ERROR---------rypgy8i7p4mzpqqnzjgcqk8i-------/api/v1/issue-------PATCH------Not Found User or Issue
 19-03-2023	 17:13:02 ------ERROR---------tl94bq9t294ani0xlzcuey10-------/api/v1/issue-------PATCH------Not Found User or Issue
 19-03-2023	 17:13:27 ------ERROR---------yjtmavzz29mqxufr5twtdbld-------/api/v1/issue-------PATCH------Not Found User or Issue
+21-03-2023	 20:21:41 ------ERROR---------z56xojupjqr2gfpmykuokmsj-------/api/v1/issue-------POST------Create Issue Failed
+21-03-2023	 20:22:42 ------ERROR---------i0viagd4qglowuo1jsutnasp-------/api/v1/issue-------POST------Create Issue Failed
+21-03-2023	 20:23:29 ------ERROR---------uc21ca9f5lt1sh3vksz2xzw4-------/api/v1/issue-------POST------Create Issue Failed
+21-03-2023	 20:25:48 ------ERROR---------mdbitom3l4u7fbrj27c3m15e-------/api/v1/issue-------POST------Create Issue Failed
+21-03-2023	 20:26:23 ------ERROR---------qc485sq1g80nxy6e6y30qfqw-------/api/v1/issue-------POST------Create Issue Failed
+21-03-2023	 20:27:59 ------ERROR---------chj0ii114n358k13cs8xmx21-------/api/v1/issue-------POST------Create Issue Failed
+21-03-2023	 20:28:38 ------ERROR---------gli8cw00mbmwqxv5hhvn75jr-------/api/v1/issue-------POST------Create Issue Failed
+21-03-2023	 20:28:52 ------ERROR---------rouhn8uaokk9uopu1ln6kqjq-------/api/v1/issue-------POST------Create Issue Failed
+21-03-2023	 20:29:55 ------ERROR---------f3z5mq8syvf7kfy0oj1enfwh-------/api/v1/issue-------POST------Create Issue Failed
+21-03-2023	 20:34:11 ------ERROR---------ow1df1e0nsbj4filmwncdc2k-------/api/v1/issue-------POST------Create Issue Failed
+21-03-2023	 20:34:30 ------ERROR---------pgc2ynckysivdnb3sq54q7g7-------/api/v1/issue-------POST------Create Issue Failed
+21-03-2023	 21:51:54 ------ERROR---------xtjnkmucho1j0anz0almhqvn-------/api/v1/user/issues-------GET------User not found
+21-03-2023	 21:53:24 ------ERROR---------do16ii1jw60cvqsy2yberu9j-------/api/v1/user/issues-------GET------User not found

@@ -27,8 +27,6 @@ const IssueSchema = new Schema(
         type: Types.ObjectId,
         ref: 'Users',
       },
-
-      email: String,
     },
   },
   {

@@ -9,15 +9,17 @@ import {
   CreateFailedException,
   UpdateFailedException,
 } from './../core/exceptions/DatabaseException';
-import { Types } from 'mongoose';
+import { Types, ObjectId } from 'mongoose';
 
 export class IssueService {
   static createIssue = async (userId: string, bookId: string) => {
     try {
-      const __bookId = new Types.ObjectId(bookId);
-      const __userId = new Types.ObjectId(userId);
-      const book = await BooksModel.findOne({ _id: __bookId });
-      const user = await UsersModel.findOne({ _id: __userId });
+      console.log({ userId, bookId });
+
+      // const __bookId = new Types.ObjectId(bookId);
+      // const __userId = new Types.ObjectId(userId);
+      const book = await BooksModel.findById(bookId);
+      const user = await UsersModel.findById(userId);
       console.log({ book, user });
 
       if (!book || !user) throw new NotFoundException('Not Found User or Book');
@@ -44,6 +46,8 @@ export class IssueService {
       await user.save();
       return new OK('Issue Successfully');
     } catch (error: any) {
+      console.log(error);
+
       if (error instanceof NotFoundException) throw new NotFoundException(error.message);
       if (error instanceof UnexpectedException) throw new UnexpectedException(error.message);
       else throw new CreateFailedException('Create Issue Failed');
