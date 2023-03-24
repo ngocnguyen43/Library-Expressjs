@@ -172,3 +172,37 @@ User Not FoundURL not found11-03-2023	 09:46:16 ------URL not found
 21-03-2023	 22:07:23 ------ERROR---------xjv94tdeh56zu1xs5ag705qx-------/api/v1/user/issue-------PATCH------Issue not found
 21-03-2023	 22:07:41 ------ERROR---------aqqpydngec1d34btd7us8cu2-------/api/v1/user/issue?id=6419b4d268df85d524e03b62-------PATCH------Issue not found
 21-03-2023	 22:18:13 ------ERROR---------ekykvv86dvrkeagr0rkkz6ks-------/api/v1/user/issue-------PATCH------Issue not found
+24-03-2023	 23:43:27 ------ERROR---------ze6e1n7w4e8ydai37glnu4bn-------/api/v1/auth/login-------POST------Incorrect  password
+24-03-2023	 23:43:40 ------ERROR---------nnomikee7a3j46g71javfi8e-------/api/v1/auth/login-------POST------Incorrect  password
+24-03-2023	 23:43:47 ------ERROR---------vaae9icb7s6o5u0lx9mghtgn-------/api/v1/auth/login-------POST------Incorrect  password
+24-03-2023	 23:43:52 ------ERROR---------s8z6ebuj4pc2qmoru1dq9ti9-------/api/v1/auth/login-------POST------Incorrect  password
+24-03-2023	 23:43:56 ------ERROR---------pcvsio2agv639jbrhg1fw28f-------/api/v1/auth/login-------POST------Incorrect  password
+24-03-2023	 23:44:50 ------ERROR---------lqdtdxgepve5crbc0vw9805h-------/api/v1/auth/login-------POST------User Not Found
+24-03-2023	 23:48:46 ------ERROR---------m3yvcniscijpq62pimp83b31-------/api/v1/auth/login-------POST------User Not Found
+24-03-2023	 23:50:16 ------ERROR---------rnxkv62ke6gaujipzbl0hpaf-------/api/v1/auth/login-------POST------Incorrect  password
+24-03-2023	 23:50:23 ------ERROR---------dgapee5c753dpwhefhs4rskx-------/api/v1/auth/login-------POST------Incorrect  password
+24-03-2023	 23:52:19 ------ERROR---------vtdpcdh0v0nramtbrk6wkszj-------/api/v1/auth/login-------POST------Incorrect  password
+24-03-2023	 23:56:02 ------ERROR---------ntieiouv0u0zmwliq6m2ao7t-------/api/v1/auth/login-------POST------Incorrect  password
+24-03-2023	 23:56:29 ------ERROR---------boaigdyqqdc0aqnfopmh7oyt-------/api/v1/auth/login-------POST------Incorrect  password
+25-03-2023	 00:01:20 ------ERROR---------mjfgi6mgia7jgz3hfttrc2ol-------/api/v1/auth/login-------POST------Incorrect  password
+25-03-2023	 00:01:27 ------ERROR---------b2vzmt339tevax29pflfli9r-------/api/v1/auth/login-------POST------Incorrect  password
+25-03-2023	 00:01:50 ------ERROR---------rhidjkmd2edw34j6veh522e1-------/api/v1/auth/login-------POST------Incorrect  password
+25-03-2023	 00:02:02 ------ERROR---------p0o4cgjanhai9oxzuc7h6ur5-------/api/v1/auth/login-------POST------Incorrect  password
+25-03-2023	 00:02:03 ------ERROR---------ynt9631xqjtgnqm71jtvfzev-------/api/v1/auth/login-------POST------Incorrect  password
+25-03-2023	 00:02:13 ------ERROR---------qvxwc4lv9ogloubwga2brth9-------/api/v1/auth/login-------POST------Incorrect  password
+25-03-2023	 00:02:14 ------ERROR---------yleajkm1q2m188ef3lvbhnb5-------/api/v1/auth/login-------POST------Incorrect  password
+25-03-2023	 00:02:16 ------ERROR---------zetoxpxxgra7fmfq6hr7j1ix-------/api/v1/auth/login-------POST------Incorrect  password
+25-03-2023	 00:03:25 ------ERROR---------psl8pq6xfhsrsj9v9mmahjaj-------/api/v1/auth/login-------POST------Incorrect  password
+25-03-2023	 00:03:40 ------ERROR---------ai3z315kxrgro2e66pxr3lzx-------/api/v1/auth/login-------POST------Incorrect  password
+25-03-2023	 00:07:35 ------ERROR---------muopcxviricynco2wgzujk9o-------/api/v1/auth/login-------POST------Incorrect  password
+25-03-2023	 00:10:57 ------ERROR---------sovnnlygww4q5rawghygoyay-------/login-------POST------undefined
+25-03-2023	 00:10:57 ------ERROR---------hu4zrc39ee13mfnl567ul9e2-------/login-------POST------undefined
+25-03-2023	 00:10:57 ------ERROR---------lyd44s07rq4vzd7boqi016jk-------/api/v1/auth/login-------POST------Incorrect  password
+25-03-2023	 00:12:04 ------ERROR---------y52a05srsr58cb291xlwokp4-------/login-------POST------Password is required
+25-03-2023	 00:12:04 ------ERROR---------c766o6spbtlxyp8d8n6amow9-------/login-------POST------ABC
+25-03-2023	 00:12:04 ------ERROR---------n8yiaaht5z07cpmttyse2ffn-------/api/v1/auth/login-------POST------Incorrect  password
+25-03-2023	 00:12:31 ------ERROR---------qc7blzgat6hh45z6msr38tv2-------/login-------POST------Password is required
+25-03-2023	 00:12:31 ------ERROR---------z4g4e579s9d6192ml32ekzqe-------/login-------POST------ABC
+25-03-2023	 00:12:59 ------ERROR---------z4ew8u7ygez03eupll4p89h5-------/login-------POST------Password is required
+25-03-2023	 00:14:03 ------ERROR---------ewqg522kmpouip1vfthf4am0-------/login-------POST------Email is invalid
+25-03-2023	 00:22:43 ------ERROR---------rn9wultl5vw76bmu5vkw4erf-------/register-------POST------Email is Invalid

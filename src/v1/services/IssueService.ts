@@ -16,8 +16,6 @@ export class IssueService {
     try {
       console.log({ userId, bookId });
 
-      // const __bookId = new Types.ObjectId(bookId);
-      // const __userId = new Types.ObjectId(userId);
       const book = await BooksModel.findById(bookId);
       const user = await UsersModel.findById(userId);
       console.log({ book, user });

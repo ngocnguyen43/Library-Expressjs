@@ -1,10 +1,12 @@
+/* eslint-disable @typescript-eslint/no-misused-promises */
 /* eslint-disable @typescript-eslint/no-unsafe-argument */
 import { Router } from 'express';
-import { ErrorHandler } from './../middlewares/ErrorHandler';
+import { ErrorHandler, handleInputsErrors } from './../middlewares/ErrorHandler';
 import AuthController from '../controllers/AuthController';
+import { ValidateLogin, ValidateSignin } from './../middlewares/validations/AuthValidator';
 
 export const router = Router();
-router.post('/register', ErrorHandler(AuthController.registerUser));
-router.post('/login', ErrorHandler(AuthController.signinUser));
+router.post('/register', ValidateSignin, handleInputsErrors, ErrorHandler(AuthController.registerUser));
+router.post('/login', ValidateLogin, handleInputsErrors, ErrorHandler(AuthController.signinUser));
 
 // export default router;
