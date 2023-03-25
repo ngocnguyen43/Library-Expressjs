@@ -172,3 +172,75 @@ User Not FoundURL not found11-03-2023	 09:46:16 ------URL not found
 21-03-2023	 22:07:23 ------ERROR---------xjv94tdeh56zu1xs5ag705qx-------/api/v1/user/issue-------PATCH------Issue not found
 21-03-2023	 22:07:41 ------ERROR---------aqqpydngec1d34btd7us8cu2-------/api/v1/user/issue?id=6419b4d268df85d524e03b62-------PATCH------Issue not found
 21-03-2023	 22:18:13 ------ERROR---------ekykvv86dvrkeagr0rkkz6ks-------/api/v1/user/issue-------PATCH------Issue not found
+24-03-2023	 23:43:27 ------ERROR---------ze6e1n7w4e8ydai37glnu4bn-------/api/v1/auth/login-------POST------Incorrect  password
+24-03-2023	 23:43:40 ------ERROR---------nnomikee7a3j46g71javfi8e-------/api/v1/auth/login-------POST------Incorrect  password
+24-03-2023	 23:43:47 ------ERROR---------vaae9icb7s6o5u0lx9mghtgn-------/api/v1/auth/login-------POST------Incorrect  password
+24-03-2023	 23:43:52 ------ERROR---------s8z6ebuj4pc2qmoru1dq9ti9-------/api/v1/auth/login-------POST------Incorrect  password
+24-03-2023	 23:43:56 ------ERROR---------pcvsio2agv639jbrhg1fw28f-------/api/v1/auth/login-------POST------Incorrect  password
+24-03-2023	 23:44:50 ------ERROR---------lqdtdxgepve5crbc0vw9805h-------/api/v1/auth/login-------POST------User Not Found
+24-03-2023	 23:48:46 ------ERROR---------m3yvcniscijpq62pimp83b31-------/api/v1/auth/login-------POST------User Not Found
+24-03-2023	 23:50:16 ------ERROR---------rnxkv62ke6gaujipzbl0hpaf-------/api/v1/auth/login-------POST------Incorrect  password
+24-03-2023	 23:50:23 ------ERROR---------dgapee5c753dpwhefhs4rskx-------/api/v1/auth/login-------POST------Incorrect  password
+24-03-2023	 23:52:19 ------ERROR---------vtdpcdh0v0nramtbrk6wkszj-------/api/v1/auth/login-------POST------Incorrect  password
+24-03-2023	 23:56:02 ------ERROR---------ntieiouv0u0zmwliq6m2ao7t-------/api/v1/auth/login-------POST------Incorrect  password
+24-03-2023	 23:56:29 ------ERROR---------boaigdyqqdc0aqnfopmh7oyt-------/api/v1/auth/login-------POST------Incorrect  password
+25-03-2023	 00:01:20 ------ERROR---------mjfgi6mgia7jgz3hfttrc2ol-------/api/v1/auth/login-------POST------Incorrect  password
+25-03-2023	 00:01:27 ------ERROR---------b2vzmt339tevax29pflfli9r-------/api/v1/auth/login-------POST------Incorrect  password
+25-03-2023	 00:01:50 ------ERROR---------rhidjkmd2edw34j6veh522e1-------/api/v1/auth/login-------POST------Incorrect  password
+25-03-2023	 00:02:02 ------ERROR---------p0o4cgjanhai9oxzuc7h6ur5-------/api/v1/auth/login-------POST------Incorrect  password
+25-03-2023	 00:02:03 ------ERROR---------ynt9631xqjtgnqm71jtvfzev-------/api/v1/auth/login-------POST------Incorrect  password
+25-03-2023	 00:02:13 ------ERROR---------qvxwc4lv9ogloubwga2brth9-------/api/v1/auth/login-------POST------Incorrect  password
+25-03-2023	 00:02:14 ------ERROR---------yleajkm1q2m188ef3lvbhnb5-------/api/v1/auth/login-------POST------Incorrect  password
+25-03-2023	 00:02:16 ------ERROR---------zetoxpxxgra7fmfq6hr7j1ix-------/api/v1/auth/login-------POST------Incorrect  password
+25-03-2023	 00:03:25 ------ERROR---------psl8pq6xfhsrsj9v9mmahjaj-------/api/v1/auth/login-------POST------Incorrect  password
+25-03-2023	 00:03:40 ------ERROR---------ai3z315kxrgro2e66pxr3lzx-------/api/v1/auth/login-------POST------Incorrect  password
+25-03-2023	 00:07:35 ------ERROR---------muopcxviricynco2wgzujk9o-------/api/v1/auth/login-------POST------Incorrect  password
+25-03-2023	 00:10:57 ------ERROR---------sovnnlygww4q5rawghygoyay-------/login-------POST------undefined
+25-03-2023	 00:10:57 ------ERROR---------hu4zrc39ee13mfnl567ul9e2-------/login-------POST------undefined
+25-03-2023	 00:10:57 ------ERROR---------lyd44s07rq4vzd7boqi016jk-------/api/v1/auth/login-------POST------Incorrect  password
+25-03-2023	 00:12:04 ------ERROR---------y52a05srsr58cb291xlwokp4-------/login-------POST------Password is required
+25-03-2023	 00:12:04 ------ERROR---------c766o6spbtlxyp8d8n6amow9-------/login-------POST------ABC
+25-03-2023	 00:12:04 ------ERROR---------n8yiaaht5z07cpmttyse2ffn-------/api/v1/auth/login-------POST------Incorrect  password
+25-03-2023	 00:12:31 ------ERROR---------qc7blzgat6hh45z6msr38tv2-------/login-------POST------Password is required
+25-03-2023	 00:12:31 ------ERROR---------z4g4e579s9d6192ml32ekzqe-------/login-------POST------ABC
+25-03-2023	 00:12:59 ------ERROR---------z4ew8u7ygez03eupll4p89h5-------/login-------POST------Password is required
+25-03-2023	 00:14:03 ------ERROR---------ewqg522kmpouip1vfthf4am0-------/login-------POST------Email is invalid
+25-03-2023	 00:22:43 ------ERROR---------rn9wultl5vw76bmu5vkw4erf-------/register-------POST------Email is Invalid
+25-03-2023	 09:13:53 ------ERROR---------rwht76mneyam4if4ng7cfjen-------/register-------POST------Email is Invalid
+25-03-2023	 10:32:31 ------ERROR---------h8pf300sl72px6sdtzf3y0pn-------/api/v1/books-------GET------Bad Request
+25-03-2023	 10:33:05 ------ERROR---------jewns6hc73qalr0h5463rbj3-------/api/v1/books-------GET------Bad Request
+25-03-2023	 10:33:08 ------ERROR---------ymm12mutxwyhzaokmg5wcxaa-------/api/v1/books-------GET------Bad Request
+25-03-2023	 11:10:39 ------ERROR---------wivl1orjd6888b27vk5m484p-------/api/v1/books-------GET------Bad Request
+25-03-2023	 12:19:31 ------ERROR---------ezraxi837tmx1bl072ewfhpd-------/book-------POST------Invalid Book's Stock
+25-03-2023	 12:25:14 ------ERROR---------w2efj7ron11k8vi7d50xou89-------/book-------POST------Invalid Book's Stock
+25-03-2023	 12:25:14 ------ERROR---------pzyia7ocwwcxezmg8cpyjmmw-------/api/v1/book-------POST------Invalid Input
+25-03-2023	 12:26:11 ------ERROR---------ov9j8uys19g2i7sp7uk9c7ik-------/book-------POST------Invalid Book's Stock
+25-03-2023	 12:26:11 ------ERROR---------bqhac9kpjt96hojh06t3bfnm-------/api/v1/book-------POST------Invalid Input
+25-03-2023	 12:26:44 ------ERROR---------prdy4x669t8n8n6isfy1urov-------/book-------POST------Invalid Book's Stock
+25-03-2023	 12:26:44 ------ERROR---------thz9dimzsemfriqxxo9fbdw7-------/api/v1/book-------POST------Invalid Input
+25-03-2023	 12:27:18 ------ERROR---------a476v7uz50p9tqorr9pzma0r-------/book-------POST------Invalid Book's Stock
+25-03-2023	 12:27:18 ------ERROR---------y035bzlo5bwqtu4cw94qgdpm-------/api/v1/book-------POST------Invalid Input
+25-03-2023	 15:16:58 ------ERROR---------hpffwz6j3csdrtza2q7eok0t-------/register-------POST------Email is Invalid
+25-03-2023	 15:17:16 ------ERROR---------liiv2cwit1x1or0nhie63uiu-------/api/v1/auth/register-------POST------User is Existed
+25-03-2023	 15:18:04 ------ERROR---------m4ua2nnh00e7mvlok56ag2w7-------/api/v1/auth/login-------POST------User Not Found
+25-03-2023	 15:18:17 ------ERROR---------j98a2xgclctllgr69ukj5bpr-------/login-------POST------Email is invalid
+25-03-2023	 15:18:40 ------ERROR---------tc86dtgid4p1xl5e3hyv2cym-------/api/v1/books-------GET------Bad Request
+25-03-2023	 15:19:10 ------ERROR---------nwyerwmzo2j262en1y06tnfs-------/book-------PATCH------Invalid Book Id
+25-03-2023	 15:19:10 ------ERROR---------ynsmy393p55v9d3is7cofozg-------/api/v1/book-------PATCH------Missing or invalid properties
+25-03-2023	 15:20:08 ------ERROR---------bjwgy7q8f7fa4krctmh5ai0c-------/api/v1/books?title=ABCDE-------GET------No Books Found
+25-03-2023	 15:21:40 ------ERROR---------din4n02hedxblq85m6c381a8-------/api/v1/books?title=ABCDE-------GET------No Books Found
+25-03-2023	 15:23:19 ------ERROR---------if3fd4mu8hr4kkm0demhil7c-------/api/v1/books?title=ABCDE-------GET------No Books Found
+25-03-2023	 15:25:35 ------ERROR---------s94f3ksywwzu0rv9rbkzr66l-------/api/v1/books?title=ABCDE-------GET------No Books Found
+25-03-2023	 15:26:04 ------ERROR---------gnk6aio14j3nda9i6rhlzmxg-------/api/v1/books?title=ABCDE&category=Physics-------GET------No Books Found
+25-03-2023	 15:26:42 ------ERROR---------bi9tax6pw2woy2qfn5vfx097-------/api/v1/books?title=ABCDE&category=Physics-------GET------No Books Found
+25-03-2023	 15:26:53 ------ERROR---------ms11evbnirxnoehaffpb5qrf-------/api/v1/books?title=ABCDE-------GET------No Books Found
+25-03-2023	 15:33:12 ------ERROR---------yfkc8my6br4a0yfjggep1a34-------/api/v1/books?page=126-------GET------No Books Found
+25-03-2023	 15:34:24 ------ERROR---------s2znmi8wpi6hgpze8qy2cuoe-------/api/v1/books?page=126-------GET------No Books Found
+25-03-2023	 15:34:26 ------ERROR---------rlz7ua70hind5dt4dmir2i7d-------/api/v1/books?page=126-------GET------No Books Found
+25-03-2023	 15:34:28 ------ERROR---------wz28s4vdn7v020mb6iszwedy-------/api/v1/books?page=126-------GET------No Books Found
+25-03-2023	 15:35:09 ------ERROR---------g4rs2j28q36em83cp19cgpl1-------/api/v1/books?page=126-------GET------No Books Found
+25-03-2023	 15:38:00 ------ERROR---------ych3eeub00a8ucpvu99lq2v4-------/api/v1/books?page=126-------GET------No Books Found
+25-03-2023	 15:42:26 ------ERROR---------k1svueys29ygs2hzhekxploi-------/book-------DELETE------Invalid Id
+25-03-2023	 15:42:26 ------ERROR---------ap4p0lmfi38s3tk7yekggtbw-------/api/v1/book-------DELETE------Missing or invalid properties
+25-03-2023	 15:42:43 ------ERROR---------brh21yjeppoe2gqdkbnf2i09-------/issue-------POST------Invalid Id
+25-03-2023	 15:42:43 ------ERROR---------dnocurq0de2ctsj0qj4eiqwa-------/api/v1/issue-------POST------Missing or invalid properties
