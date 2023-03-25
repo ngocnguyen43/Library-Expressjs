@@ -15,11 +15,13 @@ export const ValidateUpdatedBook: Array<ValidationChain> = [
   body('_id')
     .trim()
     .isString()
-    .withMessage('Invalid Id Format')
+    .withMessage('Invalid Book Id Format')
     .exists()
     .withMessage("Book's Id is Required")
     .notEmpty()
-    .withMessage("Book's Id is Required"),
+    .withMessage("Book's Id is Required")
+    .isLength({ min: 24, max: 24 })
+    .withMessage('Invalid Book Id'),
   body(['title', 'author', 'description', 'category'])
     .optional()
     .trim()
@@ -39,5 +41,7 @@ export const ValidateDeleteBook: Array<ValidationChain> = [
     .exists()
     .withMessage("Book's Id is Required")
     .notEmpty()
-    .withMessage("Book's Id is Required"),
+    .withMessage("Book's Id is Required")
+    .isLength({ min: 24, max: 24 })
+    .withMessage('Invalid Id'),
 ];

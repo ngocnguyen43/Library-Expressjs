@@ -1,5 +1,5 @@
 import { bookFilter } from '../controllers/BookController';
-import BooksModel, { IBook } from './../core/models/books.model';
+import BooksModel from './../core/models/books.model';
 import { PER_PAGE } from '../utils/Constant';
 import {
   CreateFailedException,
@@ -14,11 +14,12 @@ export class BookService {
     const total = await BooksModel.count(filter);
     const books = await BooksModel.find(filter, '-__v')
       .limit(PER_PAGE)
-      .skip(page * PER_PAGE)
+      .skip(page > 0 ? (page - 1) * PER_PAGE : 0)
       .lean();
-    if (!books.length) throw new NotFoundException('No Books Found');
 
-    return new OK('ok', 200, books, { totalpages: Math.ceil(total / PER_PAGE) - 1 });
+    if (books.length == 0) throw new NotFoundException('No Books Found');
+
+    return new OK('ok', 200, books, { totalpages: Math.ceil(total / PER_PAGE) });
   };
   static createBook = async (data: BookDto) => {
     try {

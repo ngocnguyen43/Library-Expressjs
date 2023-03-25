@@ -11,7 +11,7 @@ export type bookFilter = {
 };
 export class BookController {
   static getBooks = async (req: Request, res: Response, next: NextFunction) => {
-    const page = parseInt(req.query.page?.toString()) | 1;
+    const page = parseInt(req.query.page?.toString()) | 0;
     const category = req.query.category?.toString();
     const title = req.query.title?.toString();
     const filter: bookFilter = {};

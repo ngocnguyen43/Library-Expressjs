@@ -220,3 +220,27 @@ User Not FoundURL not found11-03-2023	 09:46:16 ------URL not found
 25-03-2023	 12:26:44 ------ERROR---------thz9dimzsemfriqxxo9fbdw7-------/api/v1/book-------POST------Invalid Input
 25-03-2023	 12:27:18 ------ERROR---------a476v7uz50p9tqorr9pzma0r-------/book-------POST------Invalid Book's Stock
 25-03-2023	 12:27:18 ------ERROR---------y035bzlo5bwqtu4cw94qgdpm-------/api/v1/book-------POST------Invalid Input
+25-03-2023	 15:16:58 ------ERROR---------hpffwz6j3csdrtza2q7eok0t-------/register-------POST------Email is Invalid
+25-03-2023	 15:17:16 ------ERROR---------liiv2cwit1x1or0nhie63uiu-------/api/v1/auth/register-------POST------User is Existed
+25-03-2023	 15:18:04 ------ERROR---------m4ua2nnh00e7mvlok56ag2w7-------/api/v1/auth/login-------POST------User Not Found
+25-03-2023	 15:18:17 ------ERROR---------j98a2xgclctllgr69ukj5bpr-------/login-------POST------Email is invalid
+25-03-2023	 15:18:40 ------ERROR---------tc86dtgid4p1xl5e3hyv2cym-------/api/v1/books-------GET------Bad Request
+25-03-2023	 15:19:10 ------ERROR---------nwyerwmzo2j262en1y06tnfs-------/book-------PATCH------Invalid Book Id
+25-03-2023	 15:19:10 ------ERROR---------ynsmy393p55v9d3is7cofozg-------/api/v1/book-------PATCH------Missing or invalid properties
+25-03-2023	 15:20:08 ------ERROR---------bjwgy7q8f7fa4krctmh5ai0c-------/api/v1/books?title=ABCDE-------GET------No Books Found
+25-03-2023	 15:21:40 ------ERROR---------din4n02hedxblq85m6c381a8-------/api/v1/books?title=ABCDE-------GET------No Books Found
+25-03-2023	 15:23:19 ------ERROR---------if3fd4mu8hr4kkm0demhil7c-------/api/v1/books?title=ABCDE-------GET------No Books Found
+25-03-2023	 15:25:35 ------ERROR---------s94f3ksywwzu0rv9rbkzr66l-------/api/v1/books?title=ABCDE-------GET------No Books Found
+25-03-2023	 15:26:04 ------ERROR---------gnk6aio14j3nda9i6rhlzmxg-------/api/v1/books?title=ABCDE&category=Physics-------GET------No Books Found
+25-03-2023	 15:26:42 ------ERROR---------bi9tax6pw2woy2qfn5vfx097-------/api/v1/books?title=ABCDE&category=Physics-------GET------No Books Found
+25-03-2023	 15:26:53 ------ERROR---------ms11evbnirxnoehaffpb5qrf-------/api/v1/books?title=ABCDE-------GET------No Books Found
+25-03-2023	 15:33:12 ------ERROR---------yfkc8my6br4a0yfjggep1a34-------/api/v1/books?page=126-------GET------No Books Found
+25-03-2023	 15:34:24 ------ERROR---------s2znmi8wpi6hgpze8qy2cuoe-------/api/v1/books?page=126-------GET------No Books Found
+25-03-2023	 15:34:26 ------ERROR---------rlz7ua70hind5dt4dmir2i7d-------/api/v1/books?page=126-------GET------No Books Found
+25-03-2023	 15:34:28 ------ERROR---------wz28s4vdn7v020mb6iszwedy-------/api/v1/books?page=126-------GET------No Books Found
+25-03-2023	 15:35:09 ------ERROR---------g4rs2j28q36em83cp19cgpl1-------/api/v1/books?page=126-------GET------No Books Found
+25-03-2023	 15:38:00 ------ERROR---------ych3eeub00a8ucpvu99lq2v4-------/api/v1/books?page=126-------GET------No Books Found
+25-03-2023	 15:42:26 ------ERROR---------k1svueys29ygs2hzhekxploi-------/book-------DELETE------Invalid Id
+25-03-2023	 15:42:26 ------ERROR---------ap4p0lmfi38s3tk7yekggtbw-------/api/v1/book-------DELETE------Missing or invalid properties
+25-03-2023	 15:42:43 ------ERROR---------brh21yjeppoe2gqdkbnf2i09-------/issue-------POST------Invalid Id
+25-03-2023	 15:42:43 ------ERROR---------dnocurq0de2ctsj0qj4eiqwa-------/api/v1/issue-------POST------Missing or invalid properties
