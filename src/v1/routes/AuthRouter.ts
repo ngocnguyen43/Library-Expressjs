@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-misused-promises */
 /* eslint-disable @typescript-eslint/no-unsafe-argument */
 import { Router } from 'express';
-import { ErrorHandler, handleInputsErrors } from './../middlewares/ErrorHandler';
+import { ErrorHandler, handleInputsErrors } from '../helpers/ErrorHandler';
 import AuthController from '../controllers/AuthController';
 import { ValidateLogin, ValidateSignin } from './../middlewares/validations/AuthValidator';
 

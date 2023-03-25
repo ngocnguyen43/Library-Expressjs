@@ -19,6 +19,7 @@ export enum ErrorCodes {
   UnexpectedException = 17,
   UnimplementedException = 18,
   HealthCheckFailedException = 19,
+  BadRequest = 20,
 }
 
 export enum ErrorStatusCodes {
@@ -41,5 +42,6 @@ export enum ErrorStatusCodes {
   ForeignKeyViolationException = 512,
   UnimplementedException = 404,
   HealthCheckFailedException = 503,
+  BadRequest = 400,
 }
 export const PER_PAGE = 16;

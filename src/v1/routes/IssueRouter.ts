@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unsafe-argument */
 import { Router } from 'express';
-import { ErrorHandler } from '../middlewares/ErrorHandler';
+import { ErrorHandler } from '../helpers/ErrorHandler';
 import { IssueController } from './../controllers/IssueController';
 
 export const router = Router();

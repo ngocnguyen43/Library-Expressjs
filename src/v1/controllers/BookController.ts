@@ -3,6 +3,7 @@
 import { NextFunction, Request, Response } from 'express';
 import { BookService } from './../services/BookService';
 import { BookDto } from './../core/dtos/BookDto';
+import { checkValidation } from './../helpers/ErrorHandler';
 
 export type bookFilter = {
   category?: string;
@@ -24,12 +25,15 @@ export class BookController {
     return res.status(200).json(await BookService.findBooks(filter, page));
   };
   static createBook = async (req: Request, res: Response, next: NextFunction) => {
+    await checkValidation(req);
     return res.status(200).json(await BookService.createBook(req.body as BookDto));
   };
   static updateBook = async (req: Request, res: Response, next: NextFunction) => {
+    await checkValidation(req);
     return res.status(200).json(await BookService.updateBook(req.body as BookDto));
   };
   static deleteBook = async (req: Request, res: Response, next: NextFunction) => {
-    return res.status(200).json(await BookService.deleteBook(req.body.id as string));
+    await checkValidation(req);
+    return res.status(200).json(await BookService.deleteBook(req.body._id as string));
   };
 }

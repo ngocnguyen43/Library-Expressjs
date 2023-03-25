@@ -206,3 +206,17 @@ User Not FoundURL not found11-03-2023	 09:46:16 ------URL not found
 25-03-2023	 00:12:59 ------ERROR---------z4ew8u7ygez03eupll4p89h5-------/login-------POST------Password is required
 25-03-2023	 00:14:03 ------ERROR---------ewqg522kmpouip1vfthf4am0-------/login-------POST------Email is invalid
 25-03-2023	 00:22:43 ------ERROR---------rn9wultl5vw76bmu5vkw4erf-------/register-------POST------Email is Invalid
+25-03-2023	 09:13:53 ------ERROR---------rwht76mneyam4if4ng7cfjen-------/register-------POST------Email is Invalid
+25-03-2023	 10:32:31 ------ERROR---------h8pf300sl72px6sdtzf3y0pn-------/api/v1/books-------GET------Bad Request
+25-03-2023	 10:33:05 ------ERROR---------jewns6hc73qalr0h5463rbj3-------/api/v1/books-------GET------Bad Request
+25-03-2023	 10:33:08 ------ERROR---------ymm12mutxwyhzaokmg5wcxaa-------/api/v1/books-------GET------Bad Request
+25-03-2023	 11:10:39 ------ERROR---------wivl1orjd6888b27vk5m484p-------/api/v1/books-------GET------Bad Request
+25-03-2023	 12:19:31 ------ERROR---------ezraxi837tmx1bl072ewfhpd-------/book-------POST------Invalid Book's Stock
+25-03-2023	 12:25:14 ------ERROR---------w2efj7ron11k8vi7d50xou89-------/book-------POST------Invalid Book's Stock
+25-03-2023	 12:25:14 ------ERROR---------pzyia7ocwwcxezmg8cpyjmmw-------/api/v1/book-------POST------Invalid Input
+25-03-2023	 12:26:11 ------ERROR---------ov9j8uys19g2i7sp7uk9c7ik-------/book-------POST------Invalid Book's Stock
+25-03-2023	 12:26:11 ------ERROR---------bqhac9kpjt96hojh06t3bfnm-------/api/v1/book-------POST------Invalid Input
+25-03-2023	 12:26:44 ------ERROR---------prdy4x669t8n8n6isfy1urov-------/book-------POST------Invalid Book's Stock
+25-03-2023	 12:26:44 ------ERROR---------thz9dimzsemfriqxxo9fbdw7-------/api/v1/book-------POST------Invalid Input
+25-03-2023	 12:27:18 ------ERROR---------a476v7uz50p9tqorr9pzma0r-------/book-------POST------Invalid Book's Stock
+25-03-2023	 12:27:18 ------ERROR---------y035bzlo5bwqtu4cw94qgdpm-------/api/v1/book-------POST------Invalid Input

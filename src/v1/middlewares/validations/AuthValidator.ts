@@ -1,6 +1,6 @@
-import { ValidationChain, body, check } from 'express-validator';
+import { ValidationChain, body } from 'express-validator';
 
-export const ValidateLogin: ValidationChain[] = [
+export const ValidateLogin: Array<ValidationChain> = [
   body('email')
     .trim()
     .exists()
@@ -9,14 +9,8 @@ export const ValidateLogin: ValidationChain[] = [
     .withMessage('Email is invalid')
     .normalizeEmail(),
   body('password').trim().exists().withMessage('Password is required').notEmpty().withMessage('Password is required'),
-  //   check('email')
-  //     .trim()
-  //     .exists()
-  //     .custom(() => {
-  //       throw new NotFoundException('ABC');
-  //     }),
 ];
-export const ValidateSignin: ValidationChain[] = [
+export const ValidateSignin: Array<ValidationChain> = [
   body('name').trim().exists().withMessage('Your Name is Required'),
   body('email')
     .trim()
