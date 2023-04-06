@@ -12,7 +12,7 @@ import { randomUUID } from 'crypto';
 export class BookService {
   static findBooks = async (filter: bookFilter, page: number) => {
     const total = await BooksModel.count(filter);
-    const books = await BooksModel.find(filter, '-__v')
+    const books = await BooksModel.find(filter, '-__v -createdAt -updatedAt')
       .limit(PER_PAGE)
       .skip(page > 0 ? (page - 1) * PER_PAGE : 0)
       .lean();
@@ -21,7 +21,7 @@ export class BookService {
 
     return new OK('ok', 200, books, { totalpages: Math.ceil(total / PER_PAGE) });
   };
-  static createBook = async (data: BookDto) => {
+  static createBook = async (data: BookDto): Promise<CREATED> => {
     try {
       await BooksModel.create({
         title: data.title,
