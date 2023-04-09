@@ -44,4 +44,4 @@ export enum ErrorStatusCodes {
   HealthCheckFailedException = 503,
   BadRequest = 400,
 }
-export const PER_PAGE = 16;
+export const PER_PAGE = 6;

@@ -19,7 +19,7 @@ export class BookService {
 
     if (books.length == 0) throw new NotFoundException('No Books Found');
 
-    return new OK('ok', 200, books, { totalpages: Math.ceil(total / PER_PAGE) });
+    return new OK('ok', 200, books, { totalpages: Math.ceil(total / PER_PAGE), currentpage: page + 1 });
   };
   static createBook = async (data: BookDto): Promise<CREATED> => {
     try {
