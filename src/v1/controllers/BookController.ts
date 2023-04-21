@@ -36,4 +36,7 @@ export class BookController {
     await checkValidation(req);
     return res.status(200).json(await BookService.deleteBook(req.body._id as string));
   };
+  static countAllBooks = async (req: Request, res: Response, next: NextFunction) => {
+    return res.status(200).json(await BookService.countAllBook());
+  };
 }

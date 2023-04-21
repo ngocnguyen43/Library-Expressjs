@@ -12,7 +12,12 @@ import { randomUUID } from 'crypto';
 export class BookService {
   static findBooks = async (filter: bookFilter, page: number) => {
     const total = await BooksModel.count(filter);
-    const books = await BooksModel.find(filter, '-__v -createdAt -updatedAt')
+    const options = {
+      ...(filter.category && { category: filter.category }),
+      ...(filter.title && { title: { $regex: filter.title, $options: 'i' } }),
+    };
+    const books = await BooksModel.find(options, '-__v -createdAt -updatedAt')
+      .sort({ createdAt: -1 })
       .limit(PER_PAGE)
       .skip(page > 0 ? (page - 1) * PER_PAGE : 0)
       .lean();
@@ -51,5 +56,9 @@ export class BookService {
       throw new UpdateFailedException('Delete Book Failed');
     }
     return new OK('Update Successfully');
+  };
+  static countAllBook = async () => {
+    const total = await BooksModel.count();
+    return new OK('OK', 200, { total: total });
   };
 }
