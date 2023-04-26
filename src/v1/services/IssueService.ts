@@ -10,6 +10,7 @@ import {
   UpdateFailedException,
 } from './../core/exceptions/DatabaseException';
 import { Types, ObjectId } from 'mongoose';
+import { PER_PAGE } from '../utils/Constant';
 
 export class IssueService {
   static createIssue = async (userId: string, bookId: string) => {
@@ -81,5 +82,17 @@ export class IssueService {
     } catch (error) {
       throw new UpdateFailedException('Return Book Failed');
     }
+  };
+  static getAllIssues = async (page: string) => {
+    const total = await IssuesModel.count();
+    const issues = await IssuesModel.find({}, '-__v -createdAt -updatedAt')
+      .limit(PER_PAGE)
+      .skip(page && +page > 0 ? (+page - 1) * PER_PAGE : 0)
+      .lean();
+    return new OK('OK', 200, issues, { totalpages: Math.ceil(total / PER_PAGE), currentpage: +page + 1 || 1 });
+  };
+  static countAllIssues = async () => {
+    const total = await IssuesModel.count();
+    return new OK('OK', 200, { total: total });
   };
 }

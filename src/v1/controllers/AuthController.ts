@@ -4,7 +4,11 @@ import { UserLoginDTO } from './../core/dtos/UserLoginDTO';
 import { AuthService } from './../services/AuthService';
 
 class AuthController {
-  static registerUser = async (req: Request, res: Response, next: NextFunction) => {
+  static registerUser = async (
+    req: Request,
+    res: Response,
+    next: NextFunction,
+  ): Promise<Response<any, Record<string, any>>> => {
     // const response = await UserService.SignUp(req.body as UserDTO);
     return res.status(201).json(await AuthService.SignUp(req.body as UserDTO));
   };

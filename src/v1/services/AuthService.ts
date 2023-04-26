@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import UserModel from '../core/models/users.model';
 import { UserDTO } from './../core/dtos/UserDto';
 import { Message, OK } from './../core/response/index';
@@ -6,6 +7,7 @@ import { UserLoginDTO } from './../core/dtos/UserLoginDTO';
 import { NotFoundException, DuplicateEntryException } from './../core/exceptions/DatabaseException';
 import { ComparePassword } from './../utils/ComparePassword';
 import { InvalidCredentialsException } from './../core/exceptions/AuthException';
+import { JwtGenerator } from '../utils/JwtGenerator';
 export class AuthService {
   static SignUp = async (data: UserDTO): Promise<Message> => {
     const email = data.email;
@@ -33,7 +35,9 @@ export class AuthService {
     if (!compare) {
       throw new InvalidCredentialsException('Incorrect  password');
     }
-    return new OK('Success', 200);
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
+    const token = JwtGenerator(user._id.toString(), user.email, user.roles[0]);
+    return new OK('Success', 200, { role: user.roles[0], token: token, id: user._id });
   };
 }
 // export default AuthService;

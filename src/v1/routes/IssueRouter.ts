@@ -8,3 +8,5 @@ export const router = Router();
 router.post('/issue', ValidateIssue, ErrorHandler(IssueController.createIssue));
 router.patch('/issue', ValidateRenewIssue, ErrorHandler(IssueController.renewIssue));
 router.delete('/issue', ValidateReturn, ErrorHandler(IssueController.returnBook));
+router.get('/issues', ErrorHandler(IssueController.getAllIssue));
+router.get('/issues/all', ErrorHandler(IssueController.countAllIssues));

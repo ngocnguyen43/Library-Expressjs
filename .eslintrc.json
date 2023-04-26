@@ -18,7 +18,7 @@
   "parserOptions": {
     "ecmaVersion": 2022,
     "sourceType": "module",
-    "project": ["BE/tsconfig.json"],
+    "project": ["./tsconfig.json"],
     "tsconfigRootDir": "./"
   },
   "rules": {
@@ -27,8 +27,7 @@
     "@typescript-eslint/explicit-function-return-type": 0,
     "@typescript-eslint/explicit-module-boundary-types": 0,
     "@typescript-eslint/no-unsafe-member-access": 0,
-    "@typescript-eslint/no-explicit-any": 0,
-    "@typescript-eslint/parser": 1
+    "@typescript-eslint/no-explicit-any": 0
   },
   "root": true
 }

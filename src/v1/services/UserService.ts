@@ -8,7 +8,7 @@ import issuesModel from '../core/models/issues.model';
 import booksModel from '../core/models/books.model';
 export class UserService {
   static findAll = async (): Promise<Message> => {
-    const user = await UserModel.find({}, '-password -__v').lean();
+    const user = await UserModel.find({}, '-password -__v -createdAt -updatedAt').lean();
     return new OK('Ok', 200, user);
   };
   static findById = async (id: string) => {
@@ -47,5 +47,9 @@ export class UserService {
     } catch (error) {
       throw new UnexpectedException('Return Failed');
     }
+  };
+  static countAllUsers = async () => {
+    const toltal = await UserModel.count();
+    return new OK('OK', 200, { toltal: toltal });
   };
 }

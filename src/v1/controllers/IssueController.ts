@@ -15,4 +15,10 @@ export class IssueController {
     await checkValidation(req);
     return res.status(200).json(await IssueService.returnBook(req.body.userId as string, req.body.issueId as string));
   };
+  static getAllIssue = async (req: Request, res: Response, next: NextFunction) => {
+    return res.status(200).json(await IssueService.getAllIssues(req.query.page as string | null));
+  };
+  static countAllIssues = async (req: Request, res: Response, next: NextFunction) => {
+    return res.status(200).json(await IssueService.countAllIssues());
+  };
 }
